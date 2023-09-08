@@ -1,0 +1,34 @@
+.ksr-search-form input {
+  width: 20%;
+}
+@media (max-width: 991px) {
+  .ksr-search-form input {
+    width: 80%;
+  }
+}
+.ksr-search-form p {
+  margin-top: 0;
+}
+
+.ksr-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.ksr-posts__wrapper {
+  padding-top: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-right: 30px;
+}
+@media (max-width: 767px) {
+  .ksr-posts__wrapper {
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+  }
+}
